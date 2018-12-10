@@ -6,4 +6,6 @@ function CauseError(){
     //router.get('/nonexistent.js');
 
 }
+
+CauseError();
 console.log(secondMessage);
