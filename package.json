@@ -1,0 +1,24 @@
+{
+  "name": "sentrywebpack",
+  "version": "1.0.0",
+  "description": "sentry webpsck integration",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoCarlinho/sentrywebpack.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaoCarlinho/sentrywebpack/issues"
+  },
+  "homepage": "https://github.com/JoaoCarlinho/sentrywebpack#readme",
+  "dependencies": {
+    "@sentry/cli": "^1.37.0",
+    "@sentry/webpack-plugin": "^1.6.2",
+    "webpack": "^4.27.1"
+  }
+}

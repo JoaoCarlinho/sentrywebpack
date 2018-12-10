@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                text-align: center;
+            }
+        </style>
+        <meta charset="utf-8">
+        <title>
+            Webpack integration
+        </title>
+        <script src="https://browser.sentry-cdn.com/4.4.1/bundle.min.js" crossorigin="anonymous"></script>
+        <script>
+            Sentry.init({
+                dsn: 'https://deffb133320d4478b203d8e37f481fee@sentry.io/1339741',
+                release: "first release",
+            });
+        </script>
+        <script src="bundle.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            it's working
+            <button onclick="CauseError()">Click</button>
+        </div>
+    </body>
+</html>

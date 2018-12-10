@@ -1,0 +1,1 @@
+module.exports = "this message came from the file 'script2.js'";
