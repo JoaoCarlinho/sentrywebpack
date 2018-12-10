@@ -7,5 +7,5 @@ function CauseError(){
 
 }
 
-CauseError();
+window.onload = CauseError();
 console.log(secondMessage);
